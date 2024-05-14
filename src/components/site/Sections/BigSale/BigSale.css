@@ -1,0 +1,66 @@
+.bigsale {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.site-section-heading.text-center:before {
+    content: "";
+    left: 50%;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: #7971ea;
+}
+
+.pos__rel {
+    position: relative;
+}
+
+.big_sale__tittle a {
+    color: #7971ea;
+    transition: .3s all ease;
+    text-decoration: none;
+}
+
+.big_sale__tittle a:hover {
+    color: #3a2ee0;
+}
+
+.big_sale__tittle h2 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.big_sale__tittle p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #8c92a0;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.big_sale__btn{
+    transition: 0.2s all ease-in-out !important;
+    padding: 10px 20px;
+    font-weight: 300;
+    letter-spacing: .2em;
+    color: white !important;
+    background-color: #7971EA ;
+    border-color:#7971EA ;
+    text-transform: uppercase;
+}
+
+.big_sale__btn:hover{
+    color: #fff;
+    background-color: #5a50e5;
+    border-color: #4f45e3;
+}

@@ -1,0 +1,16 @@
+.site-blocks-1 .text h2 {
+    color: #25262a;
+    letter-spacing: .05em;
+    font-size: 18px;
+}
+.site-blocks-1 .icon span {
+    position: relative;
+    color: #7971ea;
+    top: -10px;
+    font-size: 40px;
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
+.site-section.site-section-sm {
+    padding: 4em 0;
+}
