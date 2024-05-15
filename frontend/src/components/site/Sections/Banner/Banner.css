@@ -1,0 +1,17 @@
+.site-blocks-cover {
+  background-image: url("	https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg");
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.site-blocks-cover, .site-blocks-cover .row {
+    min-height: 600px;
+    height: calc(100vh - 174px);
+}
+.site-blocks-cover h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+}
